@@ -3,7 +3,7 @@
 Get unique record id matching the e-mail address submitted 
 --->
 <cfquery 
-			name="rs_get_record" 
+	    name="rs_get_record" 
             datasource="financialloi_main">
 			SELECT 
             record_id
