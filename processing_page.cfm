@@ -4,7 +4,7 @@ Get unique record id matching the e-mail address submitted
 --->
 <cfquery 
 	    name="rs_get_record" 
-            datasource="financialloi_main">
+            datasource="#Application.dataSource#">
 			SELECT 
             record_id
             , name 
@@ -29,7 +29,7 @@ Delete database record where record id matches the one obtained in get record cf
  --->
 <cfquery 
 			name="rs_delete_record" 
-            datasource="financialloi_main">
+            datasource="#Application.dataSource#">
 			DELETE
 			FROM 
             email_alerts 
