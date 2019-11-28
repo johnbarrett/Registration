@@ -23,7 +23,7 @@
     <tr>
       <td><label>Location</label></td>
             <td><select id = "location" name="location">
-						    <option value="maui">Maui</option>
+		<option value="maui">Maui</option>
                 <option value="hilo">Hilo</option>
                 <option value="kona">Kona</option>
                 <option value="molokai">Molokaʻi</option>
@@ -33,7 +33,7 @@
                 <option value="honolulu">Honolulu</option>
                 <option value="koolaupoko">Koʻolaupoko</option>
                 <option value="haleaha">Haleʻaha</option>
-								<option value="Msaolipreneur Lānai">Maolipreneur Lānaʻi</option>
+		<option value="Msaolipreneur Lānai">Maolipreneur Lānaʻi</option>
             </select></td>
     </tr>
     <tr>
