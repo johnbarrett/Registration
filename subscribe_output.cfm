@@ -6,7 +6,7 @@
 <cfparam name="form.password"  default="">
 <cfparam name="form.location" default="">
 
-	<cfquery name="DupCheck" datasource="financialloi_main">
+	<cfquery name="DupCheck" datasource="#Application.dataSource#">
 		SELECT *
 		FROM  email_alerts 
 		WHERE email_address = <cfqueryparam cfsqltype="cf_sql_varchar" value="#Form.email_address#" />
@@ -23,7 +23,7 @@
 
     
 	 <!--- Insert the new record --->
-		<cfquery name="AddUser" datasource="financialloi_main">
+		<cfquery name="AddUser" datasource="#Application.dataSource#">
 		   INSERT INTO email_alerts (name,email_address,phone, pass, location, date)
 		  VALUES ('#form.name#','#form.email_address#', '#form.phone#','#form.pass#' ,'#form.location#', #CreateODBCDateTime(Now())#)
 		</cfquery>
