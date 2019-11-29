@@ -5,7 +5,7 @@
 		
 		<cfquery 
 			name="rs_get_record" 
-            datasource="financialloi_main">
+            datasource="#Application.dataSource#">
 			SELECT * 
 			FROM 
             email_alerts 
