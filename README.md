@@ -1,5 +1,5 @@
-# login
+# A Registration System
  a registration system
  
  
- I had such a hrd time with this registration sysstem, so I thought that I wouod share it here incase other newbies might be having the same struggle;
+I have had such a hard time with this registration sysstem, so I thought that I would share it here in case other developers  might be having the same struggles;
