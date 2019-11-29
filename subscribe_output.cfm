@@ -30,7 +30,15 @@
 	 <!--- Insert the new record --->
 		<cfquery name="AddUser" datasource="#Application.dataSource#">
 		   INSERT INTO email_alerts (first_name, last_name,email_address, phone, location, user_name, pass, date)
-		  VALUES ('#form.first_name#', '#form.last_name#','#form.email_address#', '#form.phone#', '#form.location#','#form.user_name#', '#form.pass#', #CreateODBCDateTime(Now())#)
+		  VALUES ('#form.first_name#', '#form.last_name#','#form.email_address#', '#form.phone#', '#form.location#', '#form.user_name#', '#form.pass#', #CreateODBCDateTime(Now())#)
+		   <cfqueryparam value="#form.first_name#" cfsqltype="varchar">,
+		   <cfqueryparam value="#form.last_name#" cfsqltype="varchar">,
+		   <cfqueryparam value="#form.email_address#" cfsqltype="varchar">,
+		   <cfqueryparam value="#form.phone#" cfsqltype="varchar">,
+		   <cfqueryparam value="#form.location#" cfsqltype="varchar">
+		   <cfqueryparam value="#form.user_name#" cfsqltype="varchar">
+		   <cfqueryparam value="#form.pass#" cfsqltype="varchar">
+		
 		</cfquery>
 		
 	<cfoutput>
