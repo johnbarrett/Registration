@@ -1,25 +1,25 @@
 
 		
 <p><!--- Prompt User To Enter information --->
-<cfform action="subscribe_output.cfm" method="post">
+<form action="subscribe_output.cfm" method="post">
   <table width="311" border="0">
   <tr>
       <td>Name</td>
-      <td><cfinput type="text" name="first_name" required="yes"></td>
+      <td><input type="text" name="first_name" required="yes"></td>
     </tr>
     <tr>
       <td>Last Name</td>
-      <td><cfinput type="text" name="last_name" required="yes"></td>
+      <td><input type="text" name="last_name" required="yes"></td>
     </tr>
     
     <tr>
      <td>Email</td>
-      <td><cfinput type="text" name="email_address" required="yes"></td>
+      <td><input type="text" name="email_address" required="yes"></td>
     </tr>
     <tr>
      <tr>
      <td>Phone</td>
-      <td><cfinput type="telephone" name="phone" required="yes"></td>
+      <td><input type="telephone" name="phone" required="yes"></td>
     </tr>
     <tr>
     <tr>
@@ -32,16 +32,16 @@
     </tr>
     <tr>
       <td>username</td>
-      <td><cfinput type="text" name="user_name" required="yes"></td>
+      <td><input type="text" name="user_name" required="yes"></td>
     </tr>
     <tr>
       <td>Password</td>
-      <td><cfinput type="password" name="pass" required="yes"></td>
+      <td><input type="password" name="pass" required="yes"></td>
     </tr>
     <tr>
     
       <td></td>
-      <td><cfinput type="submit" name="SubmitForm" value="subscribe"></td>
+      <td><input type="submit" name="SubmitForm" value="subscribe"></td>
     </tr>
   </table>
-</cfform> 
+</form> 
