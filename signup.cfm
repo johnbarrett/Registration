@@ -1,7 +1,7 @@
 
 		
 <p><!--- Prompt User To Enter information --->
-<cfform action="subscribe_output.cfm" method="post">
+<form action="subscribe_output.cfm" method="post">
   <table width="311" border="0">
       <td>Name</td>
       <td><cfinput type="text" name="name" required="yes"></td>
@@ -41,4 +41,4 @@
       <td><cfinput type="submit" name="SubmitForm" value="subscribe"></td>
     </tr>
   </table>
-</cfform> 
+</form> 
