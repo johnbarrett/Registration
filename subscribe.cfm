@@ -24,19 +24,11 @@
     <tr>
     <tr>
       <td><label>Location</label></td>
-            <td><select id = "location" name="location">
-						    <option value="maui">Maui</option>
-                <option value="hilo">Hilo</option>
-                <option value="kona">Kona</option>
-                <option value="molokai">Molokaʻi</option>
-                <option value="lanai">Lānaʻi</option>
-                <option value="kauai">Kauai</option>
-                <option value="waianae">Waiʻanae</option>
+      <td><select id = "location" name="location">
+      		<option value="maui">Maui</option>
                 <option value="honolulu">Honolulu</option>
-                <option value="koolaupoko">Koʻolaupoko</option>
-                <option value="haleaha">Haleʻaha</option>
-								<option value="Msaolipreneur Lānai">Maolipreneur Lānaʻi</option>
-            </select></td>
+          </select>
+    </td>
     </tr>
     <tr>
       <td>username</td>
